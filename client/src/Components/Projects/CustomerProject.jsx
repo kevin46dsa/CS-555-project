@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getAuth, updateProfile } from "firebase/auth";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, HashRouter } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
@@ -192,7 +192,10 @@ function CustomerProject() {
   }, [auth.currentUser.uid]);
 
   return (
-    <form className="bg-white max-w-none ml-5 ">
+   <div>
+    {purchase ? null : <>
+      <div>
+    <form className="bg-white max-w-none ml-5 " onSubmit={purchaseProject}>
       <div className="space-y-12 sm:space-y-16 ">
         <div>
           <h2 className="text-base font-semibold leading-7 text-gray-900">
@@ -669,7 +672,46 @@ function CustomerProject() {
         </button>
       </div>
     </form>
+    </div>
+</>
+}
+
+<div>
+        <h2>Projects</h2>
+        {/* <div>     
+        <ul>
+
+          {projectData.length === 0 ? "No Projects Initiated Fill the details form and get in touch with the Sales Team" : projectData.map((project, index) => (
+            <div key={index} onClick={()=>{navigate(`/customerprojectdashboard/${project.id}`)}}>
+                <li >ProjectID: {project.id}</li>
+                <li>Customer:{project.data.customerName} </li>
+                <li>Purchased By: {project.data.customer}</li>
+                <li>Sale Authorised: {project.data.SaleAuthorised ? "True" : "False"}</li>
+                <li>Project Accepted: {project.data.ManagerAccepted ? "True" : "False"}</li>
+                <li>Status: {project.data.Status} </li>
+            </div>
+          ))}
+        </ul>
+      </div> */}
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"/>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p class="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div class="px-6 pt-4 pb-2">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+      </div>
+    </div> 
   );
 }
 
 export default CustomerProject;
+
+
