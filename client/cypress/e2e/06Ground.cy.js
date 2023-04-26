@@ -5,17 +5,19 @@ describe('template spec', () => {
   })
   it('Attempt to login', () => {
     cy.visit('/login')
-    cy.get(".sign_in_form .input_wrap:nth-of-type(1) .input_field").type('testemail@forcypress.com');
-    cy.get(".sign_in_form .input_wrap:nth-of-type(2) .input_field").type('testemail@1234');
+    cy.get(".sign_in_form .input_wrap:nth-of-type(1) .input_field").type('groundtest@forcypress.com');
+    cy.get(".sign_in_form .input_wrap:nth-of-type(2) .input_field").type('ground@123');
     cy.get(".sign_in_form .sign_btn").click();
   })
   it('OpenCustomerDashboard', () => {
-    let firstheader = "Personal Information"
-    cy.visit('/customerdashboard')
-    cy.get("div:nth-of-type(1) > .font-semibold.leading-7.text-base.text-gray-900").contains(firstheader)
+    let firstheader = "ground team dashboard"
+    cy.visit('/groundteamdashboard')
+    cy.get(".font-semibold.leading-6.text-gray-900.text-lg").contains(firstheader)
     
   })
   
 })
 
-
+//groundtest@forcypress.com
+//ground@123
+//
