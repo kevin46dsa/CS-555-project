@@ -12,6 +12,7 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Install dependencies
+        working-directory: client
         run: |
             if [[ -f "yarn.lock" ]]; then
               yarn install --frozen-lockfile
