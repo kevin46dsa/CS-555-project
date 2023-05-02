@@ -1,20 +1,20 @@
 import React from "react";
-//import Navbar from "./Navbar/Navbar";
-//import Footer from "./Footer/Footer";
-// import Content from "../Content/Content";
-
-
-
+import HomeFooter from "../Homepage/Footer/HomeFooter";
+import { useLocation } from 'react-router-dom';
 
 const Layout =(props)=> {
+
+  const location = useLocation();
+  const showFooter = location.pathname === '/';
     return (      
       <>
         {/*<Navbar/>*/}
-        <div className="row">
+        
           
-          <div className="col-md-12">{props.children}</div>
-
-        </div>
+          <div>{props.children}</div>
+          
+          {showFooter && <HomeFooter />}
+        
        
       </>
     );
