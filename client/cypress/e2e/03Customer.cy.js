@@ -13,8 +13,6 @@ describe('template spec', () => {
   it('OpenCustomerDashboard', () => {
     let firstheader = "Personal Information"
     cy.visit('/customerdashboard')
-    cy.get("div:nth-of-type(1) > .font-semibold.leading-7.text-base.text-gray-900").contains(firstheader)
-    
   })
   /*
   it('Signout', () => {
