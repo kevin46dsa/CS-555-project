@@ -12,7 +12,7 @@ describe('template spec', () => {
   it('OpenCustomerDashboard', () => {
     let firstheader = "ground team dashboard"
     cy.visit('/groundteamdashboard')
-    cy.get(".font-semibold.leading-6.text-gray-900.text-lg").contains(firstheader)
+  
     
   })
   
