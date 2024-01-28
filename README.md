@@ -1,4 +1,9 @@
 
+
+<a name="readme-top"></a>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1a8c65ac-805c-48d6-9275-b3d9c17065d1/deploy-status)](https://app.netlify.com/sites/soulmatecs555/deploys)
 
   <!-- PROJECT LOGO -->
@@ -22,166 +27,182 @@
     <br />
     <a href="https://github.com/kevin46dsa/CS-555-project"><strong>Explore the docs</strong></a>
     ·
-    <a href="https://drive.google.com/file/d/1llfWZuJS_oO1FPezgxj_M4R1cxVBYFZI/view?usp=sharing">View Project Presentation</a>
-    ·
-    <a href="https://drive.google.com/file/d/1fxLsQC8DMHuJ2xfBrVnbxvbCGwbClt8i/view?usp=sharing">View Project Demonstration Video</a>
-    ·
-    <a href="https://rentpipe.netlify.app">View Demo</a>
+    <a href="soulmatecs555.netlify.app/">View Demo</a>
   </p>
 </div>
 
-<img src="https://i.ibb.co/YyCmfj1/React-Project2.png" alt="drawing" width="1600"/>
-
-## :ledger: Index
-
-- [About](#beginner-about)
-- [Usage](#zap-usage)
-  - [Installation](#electric_plug-installation)
-  - [Commands](#package-commands)
-- [Development](#wrench-development)
-  - [Pre-Requisites](#notebook-pre-requisites)
-  - [Developmen Environment](#nut_and_bolt-development-environment)
-  - [File Structure](#file_folder-file-structure)
-  - [Build](#hammer-build)  
-  - [Deployment](#rocket-deployment)  
-- [Community](#cherry_blossom-community)
-  - [Contribution](#fire-contribution)
-  - [Branches](#cactus-branches)
-  - [Guideline](#exclamation-guideline)  
-- [FAQ](#question-faq)
-- [Resources](#page_facing_up-resources)
-- [Gallery](#camera-gallery)
-- [Credit/Acknowledgment](#star2-creditacknowledgment)
-- [License](#lock-license)
-
-##  :beginner: About
-To use the Project, I recommand you using standard NPM, If you have package manger yarn, just follow the common instructions
-## :zap: Usage
-Write about how to use this project.
-
-###  :electric_plug: Installation
-- Steps on how to install this project, to use it.
-- Be very detailed here, For example, if you have tools which run on different operating systems, write installation steps for all of them.
-
-```
-$ npm install
-
-```
-
-###  :package: Commands
-
-```
-$ npm start
-
-```
-
-##  :wrench: Development
-If you want to contribute to this project, please send us a email through rkang@stevens.edu
-
-### :notebook: Pre-Requisites
-List all the pre-requisites the system needs to develop this project.
-- A An editor
-- B NPM Modules
-
-###  :nut_and_bolt: Development Environment
-Here are some simple steps
-- How to download the project clone to your local repository
-- How to install dependencies : everything came in in package.json
+<img src="https://github.com/kevin46dsa/mobileordering/assets/67777018/05307fb7-70fc-4d8c-a4d6-7b6376579473" alt="drawing" width="1600"/>
 
 
-###  :file_folder: File Structure
-Add a file structure here with the basic details about files, below is an example.
-
-```
-.
-├── assets
-│   ├── css
-│   │   ├── index-ui.css
-│   │   └── rate-ui.css
-│   ├── images
-│   │   ├── icons
-│   │   │   ├── shrink-button.png
-│   │   │   └── umbrella.png
-│   │   ├── logo_144.png
-│   │   └── Untitled-1.psd
-│   └── javascript
-│       ├── index.js
-│       └── rate.js
-├── CNAME
-├── index.html
-├── rate.html
-└── README.md
-```
-
-| No | File Name | Details 
-|----|------------|-------|
-| 1  | index | Entry point
-
-###  :hammer: Build
-Write the build Instruction here.
-
-### :rocket: Deployment
-Write the deployment instruction here.
-
-## :cherry_blossom: Community
-
-If it's open-source, talk about the community here, ask social media links and other links.
-
- ###  :fire: Contribution
-
- Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
-
- 1. **Report a bug** <br>
- If you think you have encountered a bug, and I should know about it, feel free to report it [here]() and I will take care of it.
-
- 2. **Request a feature** <br>
- You can also request for a feature [here](), and if it will viable, it will be picked for development.  
-
- 3. **Create a pull request** <br>
- It can't get better then this, your pull request will be appreciated by the community. You can get started by picking up any open issues from [here]() and make a pull request.
-
- > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
 
- ### :cactus: Branches
-
- I use an agile continuous integration methodology, so the version is frequently updated and development is really fast.
-
-1. **`stage`** is the development branch.
-
-2. **`master`** is the production branch.
-
-3. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
-
-**Steps to work with feature branch**
-
-1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
-2. Once you are done with your changes, you can raise PR.
-
-**Steps to create a pull request**
-
-1. Make a PR to `stage` branch.
-2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
-3. It must pass all continuous integration checks and get positive reviews.
-
-After this, changes will be merged.
 
 
-### :exclamation: Guideline
-coding guidelines or other things you want people to follow should follow.
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Soulmate is a comprehensive end-to-end application designed to streamline and optimize the operations of solar power and roof fittings companies. Tailored to meet the diverse needs of various user roles, including Customers, Sales Executives, Warehouse Managers, and Fitting Workers, Soulmate revolutionizes the way projects are managed within the renewable energy industry.
+
+* Real-time Project Status: Live project tracking with real-time updates on milestones, resource utilization, and completion status.
+* Project Invoicing: Automated and customizable invoicing based on project milestones and completion.
+* Sales Executive Dashboard: Centralized platform for Sales Executives to manage leads, generate quotes, and convert prospects into projects.
+* Fitting Workers Integration: Use application for Fitting Workers to receive project assignments, update progress, and report issues.
+* User-Friendly Interface: Intuitive design for a user-friendly experience across all user roles.
+* Multiple Role access: Role-based access control for security and confidentiality.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## :question: FAQ
-You can optionally add a FAQ section about the project.
 
-##  :page_facing_up: Resources
-Add important resources here
+## Built With
 
-##  :camera: Gallery
-Pictures of your project.
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-## :star2: Credit/Acknowledgment
-Credit the authors here.
+* [![React][React.js]][React-url]
 
-##  :lock: License
-Add a license here, or a link to it.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This application is uses NPM as a package manager and was created using React-Create-App.
+* npm
+  ```sh
+  npm install 
+  ```
+
+### Installation
+
+This is how you can run the project on your system:
+
+1. Create a clone of the RentPipe Repository on your local machine
+   ```sh
+   git clone https://github.com/kevin46dsa/CS-555-project
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the React application
+   ```js
+   npm start
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+You can contact me at: [Kevin Dsa](https://github.com/kevin46dsa)
+<div id="badges">
+  <a href="https://www.linkedin.com/in/kevindsa2017">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://leetcode.com/kevin46dsa">
+    <img src="https://img.shields.io/badge/Leetcode-red?style=for-the-badge&logo=Leetcode&logoColor=white" alt="Leetcode Badge"/>
+  </a>
+  <a href="https://twitter.com/Kevindsaoff">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</div>
+
+Project Link:[https://github.com/kevin46dsa/CS-555-project](https://github.com/kevin46dsa/CS-555-project)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/kevin46dsa/RentPipe.svg?style=for-the-badge
+[contributors-url]: https://github.com/kevin46dsa/RentPipe/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/kevindsa2017
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
